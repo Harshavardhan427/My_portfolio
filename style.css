@@ -312,18 +312,11 @@ h5{
     cursor: pointer;
 }
 
-.Projects{
+/* .Projects{
     width:100%;
     padding: 10px;
     background-color:#191919;
-}
-
-.Projects nav{
-    display:flexbox;
-    align-items:center;
-    justify-content: space-between;
-    padding: 100px auto;
-}
+} */
 
 footer{
     position: relative;
