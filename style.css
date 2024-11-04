@@ -130,13 +130,17 @@ h4 {
 
 .About {
     width: 100%;
-    padding: 100px;
+    padding: 10px;
     background-color: #191919;
 }
 
 .about img {
     height: auto;
     width: 430px;
+    border-top-left-radius:2%;
+    border-top-right-radius:2%;
+    border-bottom-left-radius:2%;
+    border-bottom-right-radius:2%;
 }
 
 .about-text {
@@ -194,7 +198,7 @@ button:hover{
 }
 
 .service{
-    background: #101010;
+    background: #191919;
     width: 100%;
     padding: 100px 0px;
 }
@@ -306,6 +310,19 @@ h5{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
+}
+
+.Projects{
+    width:100%;
+    padding: 10px;
+    background-color:#191919;
+}
+
+.Projects nav{
+    display:flexbox;
+    align-items:center;
+    justify-content: space-between;
+    padding: 100px auto;
 }
 
 footer{
