@@ -250,22 +250,22 @@ h2 {
 }
 
 /* Individual Grid Item Backgrounds */
-.grid-item1 { background-image: url(images/weather.jpeg); }
-.grid-item2 { background-image: url(images/clock.jpeg); }
-.grid-item3 { background-image: url(images/restaurant.jpeg); }
-.grid-item4 { background-image: url(images/quiz.jpeg); }
-.grid-item5 { background-image: url(images/to-do.jpeg); }
-.grid-item6 { background-image: url(images/landing.jpg); }
-.grid-item7 { background-image: url(images/library.jpeg); }
-.grid-item8 { background-image: url(images/Employee.jpeg); }
-.grid-item9 { background-image: url(images/airlines.jpeg); }
-.grid-item10 { background-image: url(images/bus.png); }
-.grid-item11 { background-image: url(images/medical.jpeg); }
-.grid-item12 { background-image: url(images/veggie-wagon.jpeg); }
-.grid-item13 { background-image: url(images/snake.jpeg); }
-.grid-item14 { background-image: url(images/number.png); }
-.grid-item15 { background-image: url(images/password.jpeg); }
-.grid-item16 { background-image: url(images/classification.jpeg); }
+.grid-item1 { background-image: url(Images/weather.jpeg); }
+.grid-item2 { background-image: url(Images/clock.jpeg); }
+.grid-item3 { background-image: url(Images/restaurant.jpeg); }
+.grid-item4 { background-image: url(Images/quiz.jpeg); }
+.grid-item5 { background-image: url(Images/to-do.jpeg); }
+.grid-item6 { background-image: url(Images/landing.jpg); }
+.grid-item7 { background-image: url(Images/library.jpeg); }
+.grid-item8 { background-image: url(Images/Employee.jpeg); }
+.grid-item9 { background-image: url(Images/airlines.jpeg); }
+.grid-item10 { background-image: url(Images/bus.png); }
+.grid-item11 { background-image: url(Images/medical.jpeg); }
+.grid-item12 { background-image: url(Images/veggie-wagon.jpeg); }
+.grid-item13 { background-image: url(Images/snake.jpeg); }
+.grid-item14 { background-image: url(Images/number.png); }
+.grid-item15 { background-image: url(Images/password.jpeg); }
+.grid-item16 { background-image: url(Images/classification.jpeg); }
 
 /* Responsive Styling */
 @media (max-width: 1024px) {
