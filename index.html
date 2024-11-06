@@ -9,160 +9,136 @@
 </head>
 
 <body>
-    <!----hero section start-->
-
+    <!-- HTML Structure -->
     <div class="hero">
         <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About me</a></li>
-                <!-- <li><a href="#service">Services</a></li> -->
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a href=" #" class="btn">Subscribe</a>
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="Harshavardhan Vemula.pdf" download="My_resume.pdf" class="btn">Download Resume</a>
         </nav>
+    
         <div class="content">
-            <h4>Hello, I am</h4>
-            <h1><span>Harshavardhan</span>Vemula</h1>
-            <h3>I'm an Aspiring Software Engineer</h3>
-            <div class="newsletter">
-                <form>
-                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
-                    <input type="submit" name="submit" value="Lets Start">
-                </form>
-
-            </div>
-
+        <h4>Hello, I am</h4>
+        <h1><span>Harshavardhan</span> Vemula</h1>
+        <h3>I'm an Aspiring Software Engineer</h3>
         </div>
     </div>
     
-    <div>
-        <!----About section start -->
-        <section class="About" id="about">
-            <div class="main">
-                <img src="me.jpg">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <h5>Software Engineer <span>& Software Developer</span></h5>
-                    <p>Hi!, Nice to see you here. I'm Harshavardhan Vemula, I gained a solid foundation in Full Stack Development.
-                        In terms of my technical proficiency, I am well-versed in Java, Python, C & C++, and I am eager to continue learning and adapting to new technologies.
-                    </p>
-                    <button type="button">Lets Talk</button>
-
-                </div>
-
+    <section id="about" class="about-section">
+        <div class="container">
+          <div class="about-content">
+            <div class="about-image">
+              <img src="Images/me.jpg" alt="Your Photo">
             </div>
-
-        </section>
-
-        <!-----service section start-->
-        <div class="service" id = "skills">
-            <div class="title">
-                <h2>My Skills</h2>
+            <div class="about-text">
+              <h2>About Me</h2>
+              <p>Hi! I'm Harshavardhan Vemula, a passionate software developer specializing in backend development. I have a background in cloud technologies, networking protocols, and embedded systems, with expertise in Java. I enjoy building scalable solutions and collaborating on innovative projects. My goal is to contribute to impactful projects at leading tech companies.</p>
+              <p>With skills in various programming languages and frameworks, I'm ready to bring my knowledge and enthusiasm to exciting opportunities.</p>
+              <a href="#contact" class="btn">Contact Me</a>
             </div>
-            <div class="box">
-                <div class="card">
-                    <i class="fas fa-bars"></i>
-                    <h5> Coding </h5>
-                    <div class="pra">
-                        <p>
-                            <ul>
-                                <li>Java</li>
-                                <li>Python</li>
-                                <li>C Programming</li>
-                                <li>C++</li>
-                            </ul>
-                        </p>
-                        <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                        </p>
+          </div>
+        </div>
+    </section>
 
-                    </div>
-                </div>
-
-                <div class="card">
-                    <i class="far fa-user"></i>
-                    <h5>Back-End</h5>
-                    <div class="pra">
-                        <p>
-                            <ul>
-                                <li>Spring</li>
-                                <li>Spring-MVC</li>
-                                <li>Spring-Boot</li>
-                                <li>Hibernate</li>
-                            </ul>
-                        </p>
-                        <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                        </p>
-
-                    </div>
-                </div>
-
-                <div class="card">
-                    <i class="far fa-bell"></i>
-                    <h5>Front-End</h5>
-                    <div class="pra">
-                        <p>
-                            <ul>
-                                <li>HTML 5</li>
-                                <li>CSS 3</li>
-                                <li>Java Script</li>
-                                <li>React-JS</li>
-                            </ul>
-                        </p>
-                        <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                        </p>
-
-                    </div>
-                </div>
-
-                <div class="card">
-                    <i class="far fa-cube"></i>
-                    <h5>Database</h5>
-                    <div class="pra">
-                        <p>
-                            <ul>
-                                <li>DBMS</li>
-                                <li>MYSQL</li>
-                                <li>MONGODB</li>
-                                <li>NOSQL</li>
-                            </ul>
-                        </p>
-                        <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                        </p>
-
-                    </div>
-                </div>
-
-            </div>
+    <!-- Skills Section -->
+    <div class="Skill" id="skills">
+        <div class="title">
+            <h2>My Skills & Abilities</h2>
+        </div>
+        <div class="front-end">
+            <h2>Technical Skills</h2>
+        </div>
+        <div class="skill-container">
+            <div class="grid-item skill1"></div>
+            <div class="grid-item skill2"></div>
+            <div class="grid-item skill3"></div>
+            <div class="grid-item skill4"></div>
         </div>
 
+        <div class="front-end">
+            <h2>Front-End</h2>
+        </div>
+        <div class="skill-container">
+            <div class="grid-item skill5"></div>
+            <div class="grid-item skill6"></div>
+            <div class="grid-item skill7"></div>
+            <div class="grid-item skill8"></div>
+        </div>
+
+        <div class="front-end">
+            <h2>Back-End</h2>
+        </div>
+        <div class="skill-container">
+            <div class="grid-item skill9"></div>
+            <div class="grid-item skill10"></div>
+            <div class="grid-item skill11"></div>
+            <div class="grid-item skill12"></div>
+        </div>
+
+        <div class="front-end">
+            <h2>Database</h2>
+        </div>
+        <div class="skill-container">
+            <div class="grid-item skill13"></div>
+            <div class="grid-item skill14"></div>
+            <div class="grid-item skill15"></div>
+            <div class="grid-item skill16"></div>
+        </div>
     </div>
 
-    <!-- <div class="Projects">
+    <!-- Projects Section -->
+    <div class="Projects" id="Project">
         <div class="title">
             <h2>Explore my projects</h2>
         </div>
-        <div class="projectbar">
-            <nav>
-                <ul>
-                    <li><a href="#">Veggie-Wagon</a></li>
-                    <li><a href="#">Airline-Reservation-System</a></li>
-                </ul>
-            </nav>
+        
+        <div class="front-end">
+            <h2>Front-End Projects</h2>
         </div>
-    </div> -->
-
-    <!-- -----contact me
-    <div class="contact-me">
-        <p>Let Me Get You A Beautiful Website.</p>
-        <a class="button-two" href="#">Hire Me</a> 
-    </div> -->
+        <div class="grid-container">
+            <div class="grid-item grid-item1">Weather Application</div>
+            <div class="grid-item grid-item2">Digital Clock</div>
+            <div class="grid-item grid-item3">Restaurant Website</div>
+            <div class="grid-item grid-item4">Quiz Application</div>
+            <div class="grid-item grid-item5">To-Do-List</div>
+            <div class="grid-item grid-item6">Landing-Pages</div>
+        </div>
+    
+        <div class="front-end">
+            <h2>Front-End & Back-end Projects</h2>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item grid-item7">Library Management</div>
+            <div class="grid-item grid-item8">Employee Management</div>
+            <div class="grid-item grid-item9">Airline Reservation</div>
+            <div class="grid-item grid-item10">Bus Reservation</div>
+            <div class="grid-item grid-item11">Medical Center</div>
+            <div class="grid-item grid-item12">Veggie Wagon</div>
+        </div>
+    
+        <div class="front-end">
+            <h2>Machine Learning & Deep Learning</h2>
+        </div>
+        <div class="grid-container">
+            <div class="empty"></div>
+            <div class="grid-item grid-item16">Fashion MNIST<br> Classification</div>
+        </div>
+    
+        <div class="front-end">
+            <h2>Personal Projects</h2>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item grid-item13">Snake & Ladder Game</div>
+            <div class="grid-item grid-item14">Number Guessing Game</div>
+            <div class="grid-item grid-item15">Password Generator</div>
+        </div>
+    </div>
 
     <!----footer-->
     <footer id="contact">
@@ -179,5 +155,4 @@
     </footer>
     
 </body>
-
 </html>
